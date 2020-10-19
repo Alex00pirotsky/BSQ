@@ -10,3 +10,4 @@
 #         ◦ The map is made up of ’"empty" characters’, lines and ’"obstacle" characters’.
 #The aim of the program is to replace ’"empty" characters’ by ’"full" characters’ in order to represent the biggest square possible.
 #In the case that more than one solution exists, we’ll choose to represent the square that’s closest to the top of the map, then the one that’s most to the  left.
+#You can run exampels file to see in exampels dir
