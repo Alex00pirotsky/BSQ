@@ -2,7 +2,7 @@
 // Created by zeus on 13.07.2020.
 //
 
-#include "stuff.h"
+#include "../headers/stuff.h"
 #include <stdio.h>
 
 opt opti;
