@@ -155,23 +155,6 @@ void    game_play(coor *points)
     try_draw(points->root,velzi.x1_y1[0], velzi.x1_y1[1],velzi.len,'#');
     pr_2d((const char **) points->root);
 }
-char *tmp(int what)
-{
-    char **tmp;
-    tmp = make_duble(60,11);
-    tmp[0] = "/home/zeus/CLionProjects/bsq/examples/e1x.txt";
-    tmp[1] = "/home/zeus/CLionProjects/bsq/examples/e2x.txt";
-    tmp[2] = "/home/zeus/CLionProjects/bsq/examples/e3x.txt";
-    tmp[3] = "/home/zeus/CLionProjects/bsq/examples/e4x.txt";
-    tmp[4] = "/home/zeus/CLionProjects/bsq/examples/e9x.txt";
-    tmp[5] = "/home/zeus/CLionProjects/bsq/examples/ex.txt";
-    tmp[6] = "/home/zeus/CLionProjects/bsq/examples/eex.txt";
-    tmp[7] = "/home/zeus/CLionProjects/bsq/examples/eeex.txt";
-    tmp[8] = "/home/zeus/CLionProjects/bsq/examples/eeeex.txt";
-    tmp[9] = "/home/zeus/CLionProjects/bsq/examples/eeeeex.txt";
-    tmp[10]= "/home/zeus/CLionProjects/bsq/examples/eeeeeex.txt";
-    return tmp[what];
-}
 int     main(int argc, char **argv)
 {
 
