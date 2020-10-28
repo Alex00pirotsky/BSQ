@@ -7,7 +7,6 @@
 
 opt opti;
 
-/// L = SQRT(pow_2(x1 - x2) + pow_2(Y1 - Y2)) РАстояние между точками
 void sq_creator(int x, int y, int len, sqr *bible)
 {
     bible->x1_y1[0] = x;
